@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "id": "contra.voxtype",
-  "name": "VoxType",
+  "id": "contra.voxtype-tray",
+  "name": "VoxType Tray",
   "version": "1.0.0",
   "author": "contra",
   "license": "MIT",
-  "description": "Always-visible dictation chip for VoxType: recording state, toggle, and daemon control.",
+  "description": "VoxType Tray for Omarchy: recording state, toggle, and daemon control.",
   "kinds": [
     "bar-widget"
   ],
@@ -13,11 +13,12 @@
     "barWidget": "Panel.qml"
   },
   "barWidget": {
-    "displayName": "VoxType",
+    "displayName": "VoxType Tray",
     "description": "Toggle dictation, watch recording state, and open VoxType settings.",
     "category": "AI",
     "aliases": [
       "voxtype",
+      "voxtype-tray",
       "dictation",
       "voice",
       "speech"

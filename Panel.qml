@@ -5,7 +5,7 @@ import qs.Commons
 import qs.Ui
 import "Model.js" as Model
 
-// VoxType: always-visible bar control for dictation.
+// VoxType Tray: always-visible bar control for dictation.
 //
 // Omarchy already ships a hover-only Dictation indicator that opens the
 // configure TUI. This chip stays on the bar: live state, right-click
@@ -14,8 +14,8 @@ import "Model.js" as Model
 Panel {
   id: root
 
-  moduleName: "contra.voxtype"
-  ipcTarget: "contra.voxtype"
+  moduleName: "contra.voxtype-tray"
+  ipcTarget: "contra.voxtype-tray"
   manageIpc: true
 
   property string daemonState: "idle"
@@ -189,7 +189,7 @@ Panel {
         spacing: Style.space(14)
 
         PanelHero {
-          title: "VoxType"
+          title: "VoxType Tray"
           meta: Model.heroMeta(root.daemonState, root.daemonActive, root.modelName, root.backendName)
           detail: Model.heroDetail(root.daemonState, root.daemonActive)
           foreground: root.fg

@@ -62,8 +62,8 @@ function tooltip(state, daemonActive, model, backend) {
   if (model) extra.push(model)
   if (backend) extra.push(backend)
   if (!daemonActive)
-    return "VoxType · stopped\nLeft-click for controls"
-  return "VoxType · " + label.toLowerCase() + (extra.length ? "\n" + extra.join(" · ") : "\nRight-click to toggle dictation")
+    return "VoxType Tray · stopped\nLeft-click for controls"
+  return "VoxType Tray · " + label.toLowerCase() + (extra.length ? "\n" + extra.join(" · ") : "\nRight-click to toggle dictation")
 }
 
 function heroMeta(state, daemonActive, model, backend) {

@@ -1,12 +1,13 @@
-# VoxType
+# VoxType Tray
 
-![VoxType chip on the Omarchy bar](bar.png)
+![VoxType Tray chip on the Omarchy bar](bar.png)
 
-Always-visible dictation control for [VoxType](https://voxtype.io) on the
+The Omarchy port of [VoxType Tray](https://github.com/matt-shearing/voxtype-tray):
+always-visible dictation control for [VoxType](https://voxtype.io) on the
 [Omarchy](https://omarchy.org) bar.
 
 <p align="center">
-  <img src="preview.png" alt="VoxType bar panel next to voxtype configure">
+  <img src="preview.png" alt="VoxType Tray panel next to voxtype configure">
 </p>
 
 The chip shows idle, recording, transcribing, or stopped. Right-click toggles
@@ -23,7 +24,7 @@ It is not a model or GPU picker. For that, see
 ## Install
 
 ```sh
-omarchy plugin add https://github.com/matt-shearing/omarchy-voxtype.git --enable
+omarchy plugin add https://github.com/matt-shearing/omarchy-voxtype-tray.git --enable
 ```
 
 That clones the plugin and can place the chip on the right of the bar.
@@ -59,7 +60,7 @@ when you enable the plugin.
 ## Remove
 
 ```sh
-omarchy plugin remove contra.voxtype
+omarchy plugin remove contra.voxtype-tray
 ```
 
 That removes the chip. It does not uninstall VoxType or edit `~/.config/voxtype`.
@@ -70,7 +71,7 @@ That removes the chip. It does not uninstall VoxType or edit `~/.config/voxtype`
 omarchy plugin validate .
 ```
 
-Edits under `~/.config/omarchy/plugins/contra.voxtype/` reload in the running
+Edits under `~/.config/omarchy/plugins/contra.voxtype-tray/` reload in the running
 shell. Force a rescan with `omarchy-shell shell rescanPlugins` if a change does
 not appear.
 
