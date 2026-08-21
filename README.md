@@ -6,7 +6,7 @@ Always-visible dictation control for [VoxType](https://voxtype.io) on the
 [Omarchy](https://omarchy.org) bar.
 
 <p align="center">
-  <img src="preview.png" alt="VoxType panel: daemon, recording, settings" width="420">
+  <img src="preview.png" alt="VoxType bar panel next to voxtype configure">
 </p>
 
 The chip shows idle, recording, transcribing, or stopped. Right-click toggles
